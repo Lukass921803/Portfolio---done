@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lukáš Hruška</title>
+  <title>Lukáš Hruška - Portfolio</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -15,14 +15,16 @@
       <div class="navbar-center"><div class="logo">LH</div></div>
       <div class="navbar-right">
         <a href="#home" class="nav-link">Home</a>
-        <a href="#about-me" class="nav-link">About</a>
-        <a href="#contacts" class="nav-link">Contacts</a>
+        <a href="#about-me" class="nav-link">O mě</a>
+        <a href="#skills" class="nav-link">Dovednosti</a>
+        <a href="#contacts" class="nav-link">Kontakt</a>
       </div>
     </nav>
   </header>
 
   <main class="hero" id="home">
     <h1>Lukáš Hruška</h1>
+    <p class="subtitle">Začínající webový vývojář a programátor</p>
     <div class="social-icons">
       <a href="#"><i class="fab fa-instagram"></i></a>
       <a href="#"><i class="fab fa-facebook"></i></a>
@@ -51,10 +53,9 @@
           <img src="Steve.jpg" alt="Profilová fotografie" loading="lazy" />
         </div>
         <div class="about-text">
-          <h2>O mně</h2>
+          <h2>O mě</h2>
           <p>
-            Snažím se něco naprogramovat, ale upřímně zatím mi to vůbec nejde. 
-            Sem tam se něco pokazí dřív, než vůbec začnu. Ale i tak mě to baví víc než matematika.
+            Jsem student se zájmem o programování a tvorbu webů. I když se stále učím, baví mě hledat nové výzvy a zlepšovat se v tom, co dělám. Vím, že cesta ke zkušenostem je dlouhá, ale s každým pokusem se posouvám dál.
           </p>
         </div>
       </div>
@@ -67,16 +68,16 @@
           <tr><th>Dovednost</th><th>Úroveň</th></tr>
         </thead>
         <tbody>
-          <tr><td>HTML</td><td><div class="progress-bar"><div class="progress" style="width: 10%;"></div></div></td></tr>
-          <tr><td>CSS</td><td><div class="progress-bar"><div class="progress" style="width: 1%;"></div></div></td></tr>
-          <tr><td>JavaScript</td><td><div class="progress-bar"><div class="progress" style="width: 1%;"></div></div></td></tr>
-          <tr><td>Python</td><td><div class="progress-bar"><div class="progress" style="width: 1%;"></div></div></td></tr>
+          <tr><td>HTML</td><td><div class="progress-bar"><div class="progress" style="width: 50%;"></div></div></td></tr>
+          <tr><td>CSS</td><td><div class="progress-bar"><div class="progress" style="width: 30%;"></div></div></td></tr>
+          <tr><td>JavaScript</td><td><div class="progress-bar"><div class="progress" style="width: 10%;"></div></div></td></tr>
+          <tr><td>Python</td><td><div class="progress-bar"><div class="progress" style="width: 15%;"></div></div></td></tr>
         </tbody>
       </table>
     </section>
 
     <section class="contact fade-in-section" id="contacts">
-      <h2>Kontakt & Info</h2>
+      <h2>Kontakt & Informace</h2>
       <div class="info-container">
         <div class="info-item">
           <h3>Sociální sítě</h3>
@@ -91,8 +92,8 @@
           <p>+420 123 456 789</p>
         </div>
         <div class="info-item">
-          <h3>Město</h3>
-          <p>Zlín Šedesáta 7075, Česká republika</p>
+          <h3>Adresa</h3>
+          <p>Zlín Šedesátá 7075, Česká republika</p>
           <div class="map">
             <iframe 
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2626.495942944339!2d17.66057431567264!3d49.22443647933602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47130cad4c888e0d%3A0x418d4c16a8ac214f!2sZl%C3%ADn!5e0!3m2!1scs!2scz!4v1685446218563!5m2!1scs!2scz" 
@@ -104,7 +105,7 @@
     </section>
 
     <section class="contact">
-      <h2>Kontaktujte mě</h2>
+      <h2>Napište mi</h2>
       <form id="contactForm">
         <label for="name">Jméno:</label>
         <input type="text" id="name" name="name" required />
@@ -117,7 +118,6 @@
       <div id="formMessage"></div>
     </section>
   </section>
-
 
   <footer class="site-footer">
     <p>&copy; 2025 Lukáš Hruška. Všechna práva vyhrazena.</p>
